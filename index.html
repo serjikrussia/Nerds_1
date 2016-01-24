@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Nerds</title>
+    <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
+    <script src="js/map.js" type="text/javascript"></script>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="header-top clearfix">
+                <div class="logo">
+                    <a href="index.html"><img src="img/logo.png" alt=""></a>
+                </div>
+                <nav class="main-navigation">
+                    <ul>
+                        <li>
+                            <a href="#">Студия</a>
+                        </li>
+                        <li>
+                            <a href="#">Клиенты</a>
+                        </li>
+                        <li>
+                            <a href="catalog.html">Магазин</a>
+                        </li>
+                        <li>
+                            <a href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="user-block">
+                    <a href="#" class="login icon-basket">Корзина</a>
+                </div>
+            </div>
+            <div class="slider clearfix">
+                <input type="radio" id="btn-1" name="toggle" checked>
+                <input type="radio" id="btn-2" name="toggle">
+                <input type="radio" id="btn-3" name="toggle">
+                <div class="slider-controls">
+                    <label for="btn-1"></label>
+                    <label for="btn-2"></label>
+                    <label for="btn-3"></label>
+                </div>
+                <div class="slides clearfix">
+                    <div class="slide clearfix">
+                        <div class="slide-text">
+                            <div class="slide-title">Долго, дорого,
+                                <br> скрупулезно</div>
+                            <p>Математически выверенный дизайн
+                                <br> для вашего сайта или мобильного приложения.</p>
+                            <a class="btn" href="#">Узнать больше</a>
+                        </div>
+                    </div>
+                    <div class="slide clearfix">
+                        <div class="slide-text">
+                            <div class="slide-title">Любите ли вы математику, как любим ее мы?</div>
+                            <p>Нашим дизайнерам мы удаляем нейроны, ответственные за креатив, чтобы дать им возможность все просчитать</p>
+                            <a class="btn" href="#">Узнать больше</a>
+                        </div>
+                    </div>
+                    <div class="slide clearfix">
+                        <div class="slide-text">
+                            <div class="slide-title">Только наркотики, только хардкор!</div>
+                            <p>Все дизайнерские решения в нашей компании принимаются только под воздействием качественных галлюциногенов</p>
+                            <a class="btn" href="#">Узнать больше</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main-content">
+        <div class="container">
+            <div class="category-main clearfix">
+                <article class="category-item">
+                    <a href="#" target="_blank"><img src="img/web.jpg" alt=""></a>
+                    <a href="#"><h3>Веб сайты</h3></a>
+                    <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+                    <a href="#" target="_blank" class="btn">Заказать</a>
+                </article>
+                <article class="category-item">
+                    <a href="#" target="_blank"><img src="img/apps.jpg" alt=""></a>
+                    <a href="#"><h3>Приложения</h3></a>
+                    <p>Покорите топ-10 приложений в Appstore и Google Play</p>
+                    <a href="#" target="_blank" class="btn btn-green">Заказать</a>
+                </article>
+                <article class="category-item">
+                    <a href="#" target="_blank"><img src="img/presentation.jpg" alt=""></a>
+                    <a href="#"><h3>Презентации</h3></a>
+                    <p>Вы даже не подозреваете на сколько вы изумительны!</p>
+                    <a href="#" target="_blank" class="btn btn-yellow">Заказать</a>
+                </article>
+            </div>
+            <div class="category-minor clearfix">
+                <div class="main-info clearfix">
+                    <div class="left-info">
+                        <h1>Мы-маленькая, но гордая дизайн-студия из Краснодара.</h1>
+                        <p>Исповедуем принципы минимализма и чистоты.Ставим математический расчет выше креатива. Работаем не подкадая рук,как роботы.</p>
+                    </div>
+                    <div class="info-right">
+                        <img src="img/logo-info.jpg" alt="">
+                    </div>
+                </div>
+                <div class="minor-info clearfix">
+                    <div class="left-info">
+                        <h3>Выполняем заказы на разработку:</h3>
+                        <ul class="virtue">
+                            <li>Веб-сайтов любой сложности</li>
+                            <li>Мобильных приложений для iOS и Android</li>
+                            <li>Слайдшоу и видео для корпоративных презентаций</li>
+                        </ul>
+                    </div>
+                    <div class="info-right">
+                        <h3>Как мы работаем:</h3>
+                        <ul class="virtue virtue-font">
+                            <li>С самоотдачей 146%</li>
+                            <li>Соблюдая сроки на 100%</li>
+                            <li>По предоплате 50%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="partners clearfix">
+                <div class="logo-partner">
+                    <a href="#" target="_blank"><img src="img/partner-1.jpg" alt=""></a>
+                </div>
+                <div class="logo-partner">
+                    <a href="#" target="_blank"><img src="img/partner-2.jpg" alt=""></a>
+                </div>
+                <div class="logo-partner">
+                    <a href="#" target="_blank"><img src="img/partner-3.jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="main-footer">
+        <div class="map-info clearfix">
+            <div id="map"></div>
+                <div class="container clearfix">
+                    <div class="contacts clearfix">
+                        <h3>Nerds Design studio</h3>
+                        <p> 191186, Санкт-Петербург,
+                            <br>ул.Б.Конюшенная,д. 19/8</p>
+                        <p> тел. +7(812)275-75-75</p>
+                        <a href="#" class="btn btn-contact" target="_blank">Напишите нам</a>
+                    </div>
+                </div>
+        </div>
+        <div class="footer-bottom">
+        <div class="container clearfix">
+            <section class="footer-social">
+                <ul class="ul-social">
+                    <li>
+                        <a href="" class="btn icon-vk"></a>
+                    </li>
+                    <li>
+                        <a href="" class="btn icon-facebook"></a>
+                    </li>
+                    <li>
+                        <a href="" class="btn icon-instagramm "></a>
+                    </li>
+                </ul>
+            </section>
+            <section class="footer-copyright">
+                <h2>Давайте дружить,это выгодно!</h2>
+                <p>Скидка 10% для друзей из социальных сетей</p>
+            </section>
+        </div>
+        </div>
+    </footer>
+    <div class="modal-content">
+        <div class="modal-content-close" title="Закрыть">Закрыть</div>
+        <form class="login-form" action="/echo" method="post">
+            <div class="top-top clearfix">
+                <div class="user">
+                    <h3>Ваше имя:</h3>
+                    <input type="text" name="login" placeholder="Представьтесь пожалуйста">
+                </div>
+                <div class="email">
+                    <h3>Ваш e-mail:</h3>
+                    <input type="text" name="password" placeholder="Для отправки ответа">
+                </div>
+            </div>
+            <div class="top-2">
+                <h3>Текст письма:</h3>
+                <input type="text" class="icon-text" name="input-text" placeholder="В свободной форме">
+                <button type="submit" class="btn ando">Отправить</button>
+                <input type="button" class="btn undo" value="Отмена">
+            </div>
+        </form>
+    </div>
+    <script>
+     var link = document.querySelector(".btn-contact");
+      var popup = document.querySelector(".modal-content");
+      var close = document.querySelector(".modal-content-close");
+      var form = popup.querySelector("form");
+      link.addEventListener("click", function(event) {
+        event.preventDefault();
+        popup.classList.add("modal-content-show");
+      });
+
+      close.addEventListener("click", function(event) {
+        event.preventDefault();
+        popup.classList.remove("modal-content-show");
+      });
+    </script>
+</body>
+
+</html>
